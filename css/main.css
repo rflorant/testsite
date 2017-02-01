@@ -665,10 +665,9 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 150px;
+	width: 210px;
 	height: 66px;
-	background: url("../images/nav-logo.png") no-repeat center;
-	background-size: contain;
+	background: url("../images/nav-logo-175w.png") no-repeat center;
 }
 
 /* header social */
