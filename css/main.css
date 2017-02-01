@@ -1771,13 +1771,11 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-    margin-top: -155px;
     background: #111417 url(../images/about-bg.png) no-repeat center;
     background-size: cover;
-    background-position: 0px -2px;
+    background-position: 0px -230px;
     padding-top: 230px;
     padding-bottom: 120px;
-    border-bottom: 1px solid #15191d;
 }
 
 #about h3 {
