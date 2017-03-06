@@ -1319,6 +1319,23 @@ ul#nav li.current a:after {
 }
 
 
+/*
+Quote Section================================================== */
+
+#main-quote {
+	background: url("file:///F:/Rflorant/Julie's%20Brand/Olamstrategy/testsite/images/zen-bg.jpg");
+	height: 640px;
+	background-size: cover;
+}
+.quote-text {
+	width: 50%;
+	margin-left: 25%;
+	margin-right:25%;
+	padding-top: 180px;
+	color: white;
+
+}
+
 /** 
 /* 08. =portfolio styles
 /* =================================================================== */
