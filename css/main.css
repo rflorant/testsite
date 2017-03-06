@@ -1323,7 +1323,7 @@ ul#nav li.current a:after {
 Quote Section================================================== */
 
 #main-quote {
-	background: url("file:///F:/Rflorant/Julie's%20Brand/Olamstrategy/testsite/images/zen-bg.jpg");
+	background: url("http://www.test.olamstrategies.com/images/zen-bg.jpg");
 	height: 640px;
 	background-size: cover;
 }
@@ -1333,6 +1333,30 @@ Quote Section================================================== */
 	margin-right:25%;
 	padding-top: 180px;
 	color: white;
+}
+#quote-copy {
+	font-size: 2em; 
+	text-transform: none; 
+	line-height: 110%;
+}
+@media only screen and (max-width: 700px) {
+#quote-copy {
+	font-size: 1.3em; 
+	text-transform: none; 
+	line-height: 110%;
+}
+
+.quote-text {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	padding-top: 180px;
+	color: white;
+}
+
+#main-quote {
+	height: 440px;
+}
 
 }
 
