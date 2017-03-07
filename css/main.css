@@ -989,7 +989,7 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption {
-	margin: 0 35% 0 30px;
+	margin: 0 35% 0 80px;
 }
 
 #hero-slider .slides .flex-caption h1 {
@@ -1201,7 +1201,7 @@ ul#nav li.current a:after {
 	display: block;
 	position: relative;
 	bottom: 0;
-	left: 30px;
+	left: 125px;
 	z-index: 500;
 }
 
@@ -1323,15 +1323,15 @@ ul#nav li.current a:after {
 Quote Section================================================== */
 
 #main-quote {
-	background: url("http://www.test.olamstrategies.com/images/zen-bg.jpg");
-	height: 640px;
+	background: url("../images/zen-bg.jpg");
 	background-size: cover;
+	height: 365px;
 }
 .quote-text {
 	width: 50%;
 	margin-left: 25%;
 	margin-right:25%;
-	padding-top: 180px;
+	padding-top: 80px;
 	color: white;
 }
 #quote-copy {
@@ -1367,6 +1367,7 @@ Quote Section================================================== */
 #portfolio {
 	background: #111417;
 	padding-top: 120px;
+	padding-left: 70px;
 	border-bottom: 1px solid #15191d;  
 }
 
@@ -1730,6 +1731,7 @@ Quote Section================================================== */
 #services {
 	background: #000000;
 	padding-top: 20px;
+	padding-left: 70px;
 	/*padding-bottom: 120px;*/
 /*	border-bottom: 3px solid #7e57c2;
 */	background: #111417; /* For browsers that do not support gradients */
@@ -1817,6 +1819,7 @@ Quote Section================================================== */
     background-size: cover;
     background-position: 0px -230px;
     padding-top: 130px;
+    padding-left: 70px;
     padding-bottom: 120px;
 }
 
@@ -2258,6 +2261,7 @@ Quote Section================================================== */
 #contact {
 	background: #12151B;
 	padding-top: 40px;
+	padding-left: 70px;
 	padding-bottom: 138px;
 	overflow: hidden;
 	border-bottom: 1px solid #15191d;  
