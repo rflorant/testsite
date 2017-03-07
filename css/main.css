@@ -588,7 +588,7 @@ hr {
 
 @media only screen and (max-width:768px) {
 	.section-head {
-		text-align: center;
+		text-align: left;
 	}
 
 	.section-head p {
@@ -1201,7 +1201,6 @@ ul#nav li.current a:after {
 	display: block;
 	position: relative;
 	bottom: 0;
-	left: 125px;
 	z-index: 500;
 }
 
@@ -1323,7 +1322,7 @@ ul#nav li.current a:after {
 Quote Section================================================== */
 
 #main-quote {
-	background: url("../images/zen-bg.jpg");
+	background: url("../images/zen-bg2.jpg");
 	background-size: cover;
 	height: 365px;
 }
@@ -1331,7 +1330,10 @@ Quote Section================================================== */
 	width: 50%;
 	margin-left: 25%;
 	margin-right:25%;
-	padding-top: 80px;
+		/*vertically centers text */
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
 	color: white;
 }
 #quote-copy {
@@ -1339,7 +1341,7 @@ Quote Section================================================== */
 	text-transform: none; 
 	line-height: 110%;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
 #quote-copy {
 	font-size: 1.3em; 
 	text-transform: none; 
@@ -1350,7 +1352,10 @@ Quote Section================================================== */
 	width: 75%;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
-	padding-top: 180px;
+	/*vertically centers text */
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
 	color: white;
 }
 
@@ -1366,9 +1371,7 @@ Quote Section================================================== */
 
 #portfolio {
 	background: #111417;
-	padding-top: 120px;
-	padding-left: 70px;
-	border-bottom: 1px solid #15191d;  
+	padding: 5% 0 5% 5%; 
 }
 
 #portfolio .row.items {
@@ -1729,12 +1732,8 @@ Quote Section================================================== */
 /* =================================================================== */
 
 #services {
-	background: #000000;
-	padding-top: 20px;
-	padding-left: 70px;
-	/*padding-bottom: 120px;*/
-/*	border-bottom: 3px solid #7e57c2;
-*/	background: #111417; /* For browsers that do not support gradients */
+    padding: 20px 0 5% 5%;
+    background: #111417;
 }
 
 .service-list {
@@ -1818,9 +1817,7 @@ Quote Section================================================== */
     background: #111417 url(../images/about-bg.png) no-repeat center;
     background-size: cover;
     background-position: 0px -230px;
-    padding-top: 130px;
-    padding-left: 70px;
-    padding-bottom: 120px;
+	padding: 5% 0 5% 5%; 
 }
 
 #about h3 {
@@ -2260,11 +2257,8 @@ Quote Section================================================== */
 
 #contact {
 	background: #12151B;
-	padding-top: 40px;
-	padding-left: 70px;
-	padding-bottom: 138px;
+	padding: 3% 0 9% 5%; 
 	overflow: hidden;
-	border-bottom: 1px solid #15191d;  
 }
 
 #contact h3 {
