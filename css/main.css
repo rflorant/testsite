@@ -537,18 +537,18 @@ input[type="checkbox"] {
 
 /* hr */
 hr {
-	border: solid #283436;
+	border: solid #de7b28;
 	border-width: 3px 0 0;
 	width: 100px;
 	margin: 11px 0 30px;
 	height: 0;
 	clear: both;
 	text-align: left;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	-moz-transition: all 1.0s ease-in-out;
+	-o-transition: all 1.0s ease-in-out;
+	-webkit-transition: all 1.0s ease-in-out;
+	-ms-transition: all 1.0s ease-in-out;
+	transition: all 1.0s ease-in-out;
 }
 
 /* for css animations */
@@ -582,7 +582,7 @@ hr {
 
 .section-head:hover h1 + hr {
 	border-color: #de7b28;
-	width: 120px;
+	width: 70%;
 	text-align: left;
 }
 
@@ -1202,7 +1202,7 @@ ul#nav li.current a:after {
 	position: relative;
 	bottom: 0;
 	z-index: 500;
-	left:-220px;
+	left:-410px;
 
 }
 
@@ -1373,7 +1373,7 @@ Quote Section================================================== */
 
 #portfolio {
 	background: #111417;
-	padding: 5% 0 5% 5%; 
+	padding: 2% 0 0% 5%; 
 }
 
 #portfolio .row.items {
@@ -1734,7 +1734,7 @@ Quote Section================================================== */
 /* =================================================================== */
 
 #services {
-    padding: 20px 0 5% 5%;
+    padding: 20px 0 1% 5%;
     background: #111417;
 }
 
@@ -1819,7 +1819,7 @@ Quote Section================================================== */
     background: #111417 url(../images/about-bg.png) no-repeat center;
     background-size: cover;
     background-position: 0px -230px;
-	padding: 5% 0 5% 5%; 
+	padding: 3% 0 1% 5%; 
 }
 
 #about h3 {
@@ -2094,7 +2094,7 @@ Quote Section================================================== */
 /* =================================================================== */
 
 #testimonials {
-	background: #7e57c2;
+	background: #4e3280;
 	padding-top: 90px;
 	padding-bottom: 112px;
 	position: relative;
@@ -2153,7 +2153,7 @@ Quote Section================================================== */
 	font: 14px/18px "raleway-bold", sans-serif;
 	letter-spacing: 0;
 	text-transform: none;
-	color: rgba(0, 0, 0, 0.6);
+	color: #de7b28;
 }
 
 /* control nav */
@@ -2259,7 +2259,7 @@ Quote Section================================================== */
 
 #contact {
 	background: #12151B;
-	padding: 3% 0 9% 5%; 
+	padding: 2% 0 6% 5%; 
 	overflow: hidden;
 }
 

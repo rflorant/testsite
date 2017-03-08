@@ -66,7 +66,7 @@
 	      controlNav: true,
 	      directionNav: false,
 	      smoothHeight: true,
-	      slideshowSpeed: 7000,
+	      slideshowSpeed: 12000,
 	      animationSpeed: 600,
 	      randomize: false,
 	   });
