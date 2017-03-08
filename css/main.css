@@ -1197,11 +1197,13 @@ ul#nav li.current a:after {
 /* control nav */
 #hero .flex-control-nav {
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	display: block;
 	position: relative;
 	bottom: 0;
 	z-index: 500;
+	left:-220px;
+
 }
 
 #hero .flex-control-nav li {
