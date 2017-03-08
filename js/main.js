@@ -267,5 +267,13 @@
 
 	});
 
+	/*  Slide Toggle
+	=========================================== */
+    $(document).ready(function(){
+        $(".slide-toggle").click(function(){
+            $("#portfolio").slideToggle();
+        });
+    });
+
 
 })(jQuery);

@@ -1367,6 +1367,18 @@ Quote Section================================================== */
 
 }
 
+/* Slide Toggle 
+==============================================================*/
+
+.slide-toggle {
+	letter-spacing: .1em;
+	font: 25px/30px "raleway-heavy", sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+
 /** 
 /* 08. =portfolio styles
 /* =================================================================== */
@@ -1374,6 +1386,7 @@ Quote Section================================================== */
 #portfolio {
 	background: #111417;
 	padding: 2% 0 0% 5%; 
+	display: none;
 }
 
 #portfolio .row.items {
