@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'rflorant@epiphanyproductions.com';
+$siteOwnersEmail = 'jwadler@incubatorcoaching.com';
 
 
 if($_POST) {
