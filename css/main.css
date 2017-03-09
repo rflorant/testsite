@@ -645,7 +645,7 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: rgba(238, 238, 238, 0.81);
+	background: rgba(238, 238, 238, 0.5);
 	float: left;
 	width: auto;
 	margin-left: 15px;
