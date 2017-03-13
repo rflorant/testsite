@@ -44,7 +44,7 @@ body {
 	background: #0F1215;
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
-	color: rgba(202, 203, 203, 0.66);
+	color: rgba(202, 203, 203, 0.80);
 }
 
 /* links 
@@ -1323,8 +1323,16 @@ ul#nav li.current a:after {
 /*
 Quote Section================================================== */
 
-#main-quote {
-	background: url("../images/zen-bg2.jpg");
+.main-quote {
+	background-image:
+	linear-gradient(
+            to bottom, 
+            #111417 0%, 
+            rgba(64,64,64,0) 10%, 
+            rgba(64,64,64,0) 90%, 
+            #111417 100%
+        ), 
+	url("../images/zen-bg2.jpg");
 	background-size: cover;
 	height: 365px;
 }
@@ -1343,6 +1351,8 @@ Quote Section================================================== */
 	text-transform: none; 
 	line-height: 110%;
 }
+
+
 @media only screen and (max-width: 850px) {
 #quote-copy {
 	font-size: 1.3em; 
@@ -1829,9 +1839,17 @@ Quote Section================================================== */
 /* =================================================================== */
 
 #about {
-    background: #111417 url(../images/about-bg.png) no-repeat center;
+ 	background-image:
+	linear-gradient(
+            to bottom, 
+            #111417 0%, 
+            rgba(64,64,64,0) 10%, 
+            rgba(64,64,64,0) 90%, 
+            #111417 100%
+        ), 
+	url("../images/about-bg.png");  
     background-size: cover;
-    background-position: 0px -230px;
+/*    background-position: 0px 0px;*/
 	padding: 2% 0 1% 5%; 
 }
 
@@ -2158,7 +2176,7 @@ Quote Section================================================== */
 #testimonial-slider .testimonial-author .author-info {
 	display: inline-block;
 	vertical-align: middle;
-	text-align: left;
+	text-align: center;
 }
 
 #testimonial-slider .testimonial-author .author-info span {
